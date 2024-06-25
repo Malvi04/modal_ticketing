@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="assets/css/output.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
   </head>
-  <body class="bg-light-gray">
+  <body class="bg-light-gray font-poppins">
     <nav class="fixed top-0 z-50 w-full bg-white">
       <div class="px-3 py-3 lg:px-5 lg:pl-3">
         <div class="flex items-center justify-between">
@@ -162,8 +163,20 @@
                 <div class="p-6 space-y-6">
                   <form id="modalForm">
                     <div class="mb-4">
-                      <label class="block text-gray-700 text-sm font-bold mb-2" for="pop"> Description </label>
-                      <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="pop" type="text"></textarea>
+                      <label class="block text-gray-700 text-sm mb-2">Activity Status</label>
+                      <input type="text" class="appearance-none border border-gray-300 rounded w-full leading-tight focus:outline-none focus:shadow-outline" id="as" />
+                    </div>
+                    <div class="mb-4">
+                      <label class="block text-gray-700 text-sm mb-2">Response Time</label>
+                      <input type="text" class="appearance-none border border-gray-300 rounded w-full leading-tight focus:outline-none focus:shadow-outline" id="as" />
+                    </div>
+                    <div class="mb-4">
+                      <label class="block text-gray-700 text-sm mb-2">Resolution Time</label>
+                      <input type="text" class="appearance-none border border-gray-300 rounded w-full leading-tight focus:outline-none focus:shadow-outline" id="as" />
+                    </div>
+                    <div class="mb-4">
+                      <label class="block text-gray-700 text-sm mb-2" for="pop"> Description </label>
+                      <textarea class="appearance-none border border-gray-300 rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline" id="des" type="text"></textarea>
                     </div>
                   </form>
                 </div>
